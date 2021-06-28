@@ -20,21 +20,23 @@ public class ContaCorrente {
 	}
 	
 	
-	private void deposito() {
-		// TODO Auto-generated method stub
+	private void deposito(double value) {
+		this.saudo += value;
 
 	}
-	private void saque() {
+	private void saque(double value) {
 		// TODO Auto-generated method stub
+		this.saudo -= value;
 
 	}
-	private void devolução() {
+	private void devolução(double value) {
 		// TODO Auto-generated method stub
+		this.saudo += value;
 
 	}
-	private void transferência() {
+	private void transferência(double value) {
 		// TODO Auto-generated method stub
-
+		this.saudo += value;
 	}
 	
 	public double getSaudo() {
